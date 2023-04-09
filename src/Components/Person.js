@@ -7,7 +7,7 @@ const Person = (props) => {
   return (
     <div>
       <h1>
-        I'm {name}. My id is {id} and age is {age}
+        I'm {name}. id is {id} and age is {age}
       </h1>
     </div>
   );
