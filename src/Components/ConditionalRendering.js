@@ -5,7 +5,7 @@ class ConditionalRendering extends Component {
     super();
 
     this.state = {
-      isLoading: true,
+      isLoading: false,
     };
   }
   render() {
@@ -34,16 +34,13 @@ class ConditionalRendering extends Component {
     //     <div>{message}</div>
     // )
 
-
     //Conditional Opertaor
     // return this.state.isLoading ? (
     //     <div>Welcome hero</div>
     //    ): (<div>Welcome Guest</div>)
 
-
     //Short-circuit
-    return this.state.isLoading && <div>Hello Hero</div>
-    
+    return this.state.isLoading && <div>Hello Hero</div>;
   }
 }
 
