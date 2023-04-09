@@ -11,7 +11,7 @@ const Hello = () => {
   // Without JSX
   return React.createElement(
     "div",
-    {id:'hello', className: 'dummy'},
+    { id: "hello", className: "bummy" },
     React.createElement("h1", null, "Hello brother's")
   );
 };
